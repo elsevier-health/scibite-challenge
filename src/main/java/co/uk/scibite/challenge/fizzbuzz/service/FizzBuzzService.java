@@ -20,7 +20,6 @@ public class FizzBuzzService {
     public boolean validatesFizzBuzzFile(final FizzBuzz fizzBuzz) {
         boolean isValid = true;
 
-
         for (int j = 0; j < fizzBuzz.getLines().size(); j++) {
             StringBuilder sb = new StringBuilder();
             String[] lines = fizzBuzz.getLines().get(j);
